@@ -35,7 +35,7 @@ public class Pipe : MonoBehaviour
         return (state == answerState);
     }
 
-    void Start()
+    public void Start()
     {
         state = startingState;
         ChangeColor();
