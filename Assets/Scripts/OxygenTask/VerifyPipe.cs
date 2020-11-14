@@ -12,12 +12,11 @@ public class VerifyPipe : MonoBehaviour
 
     private bool validate;
     private float timer = 0;
-    private Color validColor;
 
     // Start is called before the first frame update
     void Start()
     {
-        validColor = GetComponent<Image>().color;
+        
     }
 
     // Update is called once per frame
@@ -80,6 +79,18 @@ public class VerifyPipe : MonoBehaviour
         {
             i.color = new Color(i.color.r, i.color.g, i.color.b, i.color.a - (Time.deltaTime / t));
             yield return null;
+        }
+    }
+
+    public void Reset()
+    {
+        timer = 0;
+        validate = false;
+        oxygen.value = oxygen.maxValue;
+        player.value = 0;
+        foreach(Pipe pipe in pipes)
+        {
+            pipe.Start();
         }
     }
 
