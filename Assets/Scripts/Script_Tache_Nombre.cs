@@ -209,7 +209,7 @@ public class Script_Tache_Nombre: MonoBehaviour
                 texteCible = sRedNumber;
                 break;
         }
-        if (input.text[0]+" "+input.text[1] == texteCible)
+        if (input.text.Length>1 && input.text[0]+" "+input.text[1] == texteCible)
         {
             if (Affichage != null)
                 Affichage.text = "Congratulation !";
