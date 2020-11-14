@@ -19,6 +19,18 @@ public class VerifyPipe : MonoBehaviour
         
     }
 
+    private void OnEnable()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        Reset();
+    }
+
+    private void OnDisable()
+    {
+        Reset();
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -37,6 +49,7 @@ public class VerifyPipe : MonoBehaviour
             validate = false;
             oxygen.value = 0;
             timer = 0;
+            GameObject.Find("Valve").GetComponent<OxygenManager>().Interact();
         }
     }
 
