@@ -387,7 +387,7 @@ GameObject:
   - component: {fileID: 1218159570394970851}
   - component: {fileID: 2263291387359539936}
   m_Layer: 8
-  m_Name: w_EastBottomToEastIntersectRoomGround (1)
+  m_Name: eastCeiling23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -574,7 +574,7 @@ GameObject:
   - component: {fileID: 1261325759376100648}
   - component: {fileID: 1630244838838631521}
   m_Layer: 8
-  m_Name: w_EastBottomTaskBigRoomGround2 (1)
+  m_Name: eastCeiling28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -947,7 +947,7 @@ GameObject:
   - component: {fileID: 5643737529588757785}
   - component: {fileID: 2589852287767126029}
   m_Layer: 8
-  m_Name: w_EastToMiddleCorridorGround (1)
+  m_Name: eastCeiling3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1041,7 +1041,7 @@ GameObject:
   - component: {fileID: 1732099671443503667}
   - component: {fileID: 8743560376720063787}
   m_Layer: 8
-  m_Name: w_EastRoomGround (1)
+  m_Name: eastCeiling2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1883,7 +1883,7 @@ GameObject:
   - component: {fileID: 3007126701460552351}
   - component: {fileID: 3725405319373356854}
   m_Layer: 8
-  m_Name: w_EastCameraBottomHideRoomGround (1)
+  m_Name: eastCeiling26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3373,7 +3373,7 @@ GameObject:
   - component: {fileID: 6391225697183989139}
   - component: {fileID: 3761124850478610111}
   m_Layer: 8
-  m_Name: c_Gcorridor9 (1)
+  m_Name: westCeiling19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5390,7 +5390,7 @@ GameObject:
   - component: {fileID: 5193370954215802211}
   - component: {fileID: 3162996950546682920}
   m_Layer: 8
-  m_Name: w_EastBottomTaskBigRoomGround1 (1)
+  m_Name: eastCeiling27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5670,7 +5670,7 @@ GameObject:
   - component: {fileID: 1541375355902939592}
   - component: {fileID: 6851639710599061265}
   m_Layer: 8
-  m_Name: c_Gcorridor2 (1)
+  m_Name: westCeiling2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6137,7 +6137,7 @@ GameObject:
   - component: {fileID: 5074810186356243905}
   - component: {fileID: 550215153716357104}
   m_Layer: 8
-  m_Name: c_Gcorridor7 (1)
+  m_Name: westCeiling12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6231,7 +6231,7 @@ GameObject:
   - component: {fileID: 3794175100036764273}
   - component: {fileID: 3799493288923043836}
   m_Layer: 8
-  m_Name: c_Gdelectrical13 (1)
+  m_Name: westCeiling18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6978,7 +6978,7 @@ GameObject:
   - component: {fileID: 6747235853235657940}
   - component: {fileID: 964033614701054062}
   m_Layer: 8
-  m_Name: c_Gcorridor4 (1)
+  m_Name: westCeiling6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7827,7 +7827,7 @@ GameObject:
   - component: {fileID: 2012408187019900630}
   - component: {fileID: 1659073297709980387}
   m_Layer: 8
-  m_Name: c_Gcorridor8 (1)
+  m_Name: westCeiling14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8759,7 +8759,7 @@ GameObject:
   - component: {fileID: 523194573608085330}
   - component: {fileID: 6244014091631687333}
   m_Layer: 8
-  m_Name: w_EastToTaskTransitionCorridorGround (1)
+  m_Name: eastCeiling13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9226,7 +9226,7 @@ GameObject:
   - component: {fileID: 1678805087757026182}
   - component: {fileID: 7365524196913513824}
   m_Layer: 8
-  m_Name: w_EastOxygenCorridorToMiddleGround2 (1)
+  m_Name: eastCeiling9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10290,7 +10290,7 @@ GameObject:
   - component: {fileID: 4238665745580919615}
   - component: {fileID: 3408099552935136097}
   m_Layer: 8
-  m_Name: w_EastToTask2CorridorGround (1)
+  m_Name: eastCeiling12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11129,7 +11129,7 @@ GameObject:
   - component: {fileID: 2054229866702128315}
   - component: {fileID: 5047634084186100655}
   m_Layer: 8
-  m_Name: c_Gcorridor10 (1)
+  m_Name: westCeiling15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11223,7 +11223,7 @@ GameObject:
   - component: {fileID: 1942229504559616024}
   - component: {fileID: 1973119246453205121}
   m_Layer: 8
-  m_Name: c_Gcorridor1 (1)
+  m_Name: westCeiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12747,7 +12747,7 @@ GameObject:
   - component: {fileID: 8810905629852289491}
   - component: {fileID: 3204384693858369638}
   m_Layer: 8
-  m_Name: w_EastBottomToHideRoomCorridorGround (1)
+  m_Name: eastCeiling25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13027,7 +13027,7 @@ GameObject:
   - component: {fileID: 8600184111015740273}
   - component: {fileID: 1016307666146682911}
   m_Layer: 8
-  m_Name: w_EastMiddleToCameraRoomCooridorGround (1)
+  m_Name: eastCeiling29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15446,7 +15446,7 @@ GameObject:
   - component: {fileID: 1679198359028966548}
   - component: {fileID: 2037031448590602654}
   m_Layer: 8
-  m_Name: w_EastMiddleRoomGround (1)
+  m_Name: eastCeiling11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16286,7 +16286,7 @@ GameObject:
   - component: {fileID: 5762667733946433036}
   - component: {fileID: 5943537955653321518}
   m_Layer: 8
-  m_Name: w_EastBottomToMiddleCorridorGround (1)
+  m_Name: eastCeiling21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16660,7 +16660,7 @@ GameObject:
   - component: {fileID: 3098772507934054092}
   - component: {fileID: 6461910230948177274}
   m_Layer: 8
-  m_Name: c_Gcorridor6 (1)
+  m_Name: westCeiling7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17033,7 +17033,7 @@ GameObject:
   - component: {fileID: 8934010405835875647}
   - component: {fileID: 8354654039223457055}
   m_Layer: 8
-  m_Name: w_EastToCameraRoomCorridorBottomGround (1)
+  m_Name: eastCeiling18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17220,7 +17220,7 @@ GameObject:
   - component: {fileID: 3128659937684753564}
   - component: {fileID: 7688969890015721570}
   m_Layer: 8
-  m_Name: c_Gcorridor11 (1)
+  m_Name: westCeiling16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17407,7 +17407,7 @@ GameObject:
   - component: {fileID: 818109526308417954}
   - component: {fileID: 3396121053736125464}
   m_Layer: 8
-  m_Name: w_EastBottomToEastCorriderGround (1)
+  m_Name: eastCeiling22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17966,7 +17966,7 @@ GameObject:
   - component: {fileID: 8702940836129615559}
   - component: {fileID: 5720921027305503411}
   m_Layer: 8
-  m_Name: w_EastToCameraRoomCorridorMiddleGround (1)
+  m_Name: eastCeiling16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18340,7 +18340,7 @@ GameObject:
   - component: {fileID: 5034491054128970428}
   - component: {fileID: 4377218555030264871}
   m_Layer: 8
-  m_Name: c_Gintersection2 (1)
+  m_Name: westCeiling13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18527,7 +18527,7 @@ GameObject:
   - component: {fileID: 9178474890802908304}
   - component: {fileID: 3642650155352878721}
   m_Layer: 8
-  m_Name: w_EastBottomToEastTaskCorridorGround (1)
+  m_Name: eastCeiling24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18715,7 +18715,7 @@ GameObject:
   - component: {fileID: 8772241480972526359}
   - component: {fileID: 6944979745951141535}
   m_Layer: 8
-  m_Name: c_Gcorridor5 (1)
+  m_Name: westCeiling9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18809,7 +18809,7 @@ GameObject:
   - component: {fileID: 477355752418270040}
   - component: {fileID: 7121031340713288256}
   m_Layer: 8
-  m_Name: w_EastMiddleToBottomCorridorGround (1)
+  m_Name: eastCeiling19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19089,7 +19089,7 @@ GameObject:
   - component: {fileID: 5139728324602375811}
   - component: {fileID: 5573960281570102031}
   m_Layer: 8
-  m_Name: c_Gintersection1 (1)
+  m_Name: westCeiling3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19555,7 +19555,7 @@ GameObject:
   - component: {fileID: 4871026974702576413}
   - component: {fileID: 8055303212347449857}
   m_Layer: 8
-  m_Name: w_EastCameraRoomGround (1)
+  m_Name: eastCeiling17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20300,7 +20300,7 @@ GameObject:
   - component: {fileID: 8728359229087181779}
   - component: {fileID: 3601698188747565290}
   m_Layer: 8
-  m_Name: c_Gcorridor3 (1)
+  m_Name: westCeiling4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20394,7 +20394,7 @@ GameObject:
   - component: {fileID: 1044251067425719420}
   - component: {fileID: 3267263888669524935}
   m_Layer: 8
-  m_Name: w_EastTaskRoomGround2 (1)
+  m_Name: eastCeiling15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21968,7 +21968,7 @@ GameObject:
   - component: {fileID: 8079736413473205845}
   - component: {fileID: 8180188918106991072}
   m_Layer: 8
-  m_Name: w_EastRoomOxygenGround (1)
+  m_Name: eastCeiling6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22062,7 +22062,7 @@ GameObject:
   - component: {fileID: 8047091836470598312}
   - component: {fileID: 2641006077443204042}
   m_Layer: 8
-  m_Name: w_EastToOxygenCorridorGround (1)
+  m_Name: eastCeiling5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22435,7 +22435,7 @@ GameObject:
   - component: {fileID: 3013301799175220179}
   - component: {fileID: 5219379781322506467}
   m_Layer: 8
-  m_Name: w_EastTaskRoomGround1 (1)
+  m_Name: eastCeiling14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24113,7 +24113,7 @@ GameObject:
   - component: {fileID: 4974022145172496950}
   - component: {fileID: 9201241613273101916}
   m_Layer: 8
-  m_Name: w_EastOxygenCorridorToMiddleGround3 (1)
+  m_Name: eastCeiling10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24580,7 +24580,7 @@ GameObject:
   - component: {fileID: 1414559145383610660}
   - component: {fileID: 1511891533191829120}
   m_Layer: 8
-  m_Name: c_GdeadLock1 (1)
+  m_Name: westCeiling8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25139,7 +25139,7 @@ GameObject:
   - component: {fileID: 3057030577714486423}
   - component: {fileID: 4381522876486851251}
   m_Layer: 8
-  m_Name: w_EastBottomIntersectRoom (1)
+  m_Name: eastCeiling20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25513,7 +25513,7 @@ GameObject:
   - component: {fileID: 9158232017851105947}
   - component: {fileID: 701055711872432856}
   m_Layer: 8
-  m_Name: c_Gdelectrical2 (1)
+  m_Name: westCeiling11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26354,7 +26354,7 @@ GameObject:
   - component: {fileID: 4643560964030912858}
   - component: {fileID: 8425322414395460748}
   m_Layer: 8
-  m_Name: w_EastOxygenCorridorToMiddleGround (1)
+  m_Name: eastCeiling7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26820,7 +26820,7 @@ GameObject:
   - component: {fileID: 2795948452085304461}
   - component: {fileID: 8243732879021055144}
   m_Layer: 8
-  m_Name: c_Gcorridor12 (1)
+  m_Name: westCeiling17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26914,7 +26914,7 @@ GameObject:
   - component: {fileID: 7431175825042232703}
   - component: {fileID: 9190549348252916683}
   m_Layer: 8
-  m_Name: w_EastOxygenIntersectRoomGround (1)
+  m_Name: eastCeiling8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27381,7 +27381,7 @@ GameObject:
   - component: {fileID: 7332831373530795457}
   - component: {fileID: 6131949096806989799}
   m_Layer: 8
-  m_Name: c_Gelectrical1 (1)
+  m_Name: westCeiling10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27693,7 +27693,7 @@ GameObject:
   - component: {fileID: 1953793285814145420}
   - component: {fileID: 4395916602747431843}
   m_Layer: 8
-  m_Name: w_EastToEastCorridorGround (1)
+  m_Name: eastCeiling4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27787,7 +27787,7 @@ GameObject:
   - component: {fileID: 5769827447448161869}
   - component: {fileID: 4091644415439617461}
   m_Layer: 8
-  m_Name: c_GTask1 (1)
+  m_Name: westCeiling5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28437,7 +28437,7 @@ GameObject:
   - component: {fileID: 9182204245933747417}
   - component: {fileID: 1705530781327481245}
   m_Layer: 8
-  m_Name: w_EastMainCorridorGround (1)
+  m_Name: eastCeiling1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
