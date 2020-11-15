@@ -8,8 +8,8 @@ public class EntityBehavior : MonoBehaviour
 
     [SerializeField]
     private List<GameObject> patrolSpotList = new List<GameObject>();
-    [SerializeField]
-    private float speed = 50;
+    
+    public float speed = 50;
     [SerializeField]
     private float minRemainingDistance = 0.5f;
 
@@ -48,7 +48,7 @@ public class EntityBehavior : MonoBehaviour
         }
     }
 
-    void SetAgentProperties()
+    public void SetAgentProperties()
     {
         agent = GetComponent<NavMeshAgent>();
         if(agent == null)

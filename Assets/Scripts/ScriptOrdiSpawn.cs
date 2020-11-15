@@ -11,30 +11,44 @@ public class ScriptOrdiSpawn : MonoBehaviour
     private Text InteractText = null;
     [SerializeField]
     private GameObject PortesSpawn = null;
-    private OxygenBarScript OxyScript=null;
+    private OxygenBarScript OxyScript = null;
+
+    private Transform spawnEntity;
+    private GameObject entity;
 
     private Begin_Script scriptTimer = null;
+    private EntityBehavior scriptSpeed = null;
 
     private GameManagerScript GMScript = null;
 
     // Start is called before the first frame update
     void Start()
     {
+        entity = GameObject.Find("EntityUnit");
+        spawnEntity = GameObject.Find("SpawnEntity").GetComponent<Transform>();
+
         OxyScript = GameObject.Find("OxygenBar").GetComponent<OxygenBarScript>();
         scriptTimer = GameObject.Find("TimeRemainingText").GetComponent<Begin_Script>();
+
         GMScript = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
+
+        scriptSpeed = GameObject.Find("EntityUnit").GetComponent<EntityBehavior>();
+        scriptSpeed.speed = 0;
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F) && bCanStart && bUsable)
         {
-            if(scriptTimer == null)
+            if (scriptTimer == null)
             {
                 Debug.LogError("There is no Script assigned, please assign one.");
                 return;
             }
 
+            scriptSpeed.speed = 15;
+            scriptSpeed.SetAgentProperties();
+            entity.transform.position = spawnEntity.position;
             scriptTimer.startTimer();
 
             if (PortesSpawn != null)
