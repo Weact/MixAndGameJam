@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class Stun_size : MonoBehaviour
@@ -8,11 +9,15 @@ public class Stun_size : MonoBehaviour
     public bool stun = false;
     public float range = 5f;
     public Transform target;
-    private int stun_time = 5;
+    private int stun_time = 3;
     private int stimer = 0;
+
+    private Text stunTextObject;
+
     // Start is called before the first frame update
     void Start()
     {
+        stunTextObject = GameObject.Find("StunText").GetComponent<Text>();
     }
 
     // Update is called once per frame
@@ -35,11 +40,13 @@ public class Stun_size : MonoBehaviour
             //Debug.Log(stimer);
             //Debug.Log(stun_time);
             stun = true;
+            stunTextObject.enabled = true;
         }
         else
         {
             stimer = 0;
             stun = false;
+            stunTextObject.enabled = false;
             CancelInvoke("StunPlayer");
         }
     }
