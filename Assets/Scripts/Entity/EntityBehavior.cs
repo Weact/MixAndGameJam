@@ -8,8 +8,8 @@ public class EntityBehavior : MonoBehaviour
 
     [SerializeField]
     private List<GameObject> patrolSpotList = new List<GameObject>();
-    [SerializeField]
-    private float speed = 50;
+    
+    public float speed = 50;
     [SerializeField]
     private float minRemainingDistance = 0.5f;
 
@@ -22,7 +22,6 @@ public class EntityBehavior : MonoBehaviour
     void Start()
     {
         FillPatrolSpotsList();
-
         agent = GetComponent<NavMeshAgent>();
 
         if(agent == null)
@@ -48,7 +47,7 @@ public class EntityBehavior : MonoBehaviour
         }
     }
 
-    void SetAgentProperties()
+    public void SetAgentProperties()
     {
         agent = GetComponent<NavMeshAgent>();
         if(agent == null)
@@ -89,6 +88,11 @@ public class EntityBehavior : MonoBehaviour
         {
             Debug.LogError("You must setup at least one Patrol Spot for your Entity.");
             return;
+        }
+
+        if(destinationPoint == 0)
+        {
+            destinationPoint = 1;
         }
 
         agent.destination = patrolSpotList[destinationPoint].transform.position;

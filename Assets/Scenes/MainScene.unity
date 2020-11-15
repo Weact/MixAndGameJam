@@ -122,6 +122,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: df7a51d6aabfe7749917974b41dd771b, type: 2}
+--- !u!1 &3198705 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4905079187762959202, guid: 226156120b6c9cb4fb423706fe193933,
+    type: 3}
+  m_PrefabInstance: {fileID: 322213988}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &24623716 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7789827462973478131, guid: 8de84386008c8c44c8b36ccd2a765ac4,
@@ -215,6 +221,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3154629210531073358, guid: 226156120b6c9cb4fb423706fe193933,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 93
+      objectReference: {fileID: 0}
+    - target: {fileID: 3154629210531073358, guid: 226156120b6c9cb4fb423706fe193933,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -83
+      objectReference: {fileID: 0}
+    - target: {fileID: 3154629210531073358, guid: 226156120b6c9cb4fb423706fe193933,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3645462142143373396, guid: 226156120b6c9cb4fb423706fe193933,
         type: 3}
       propertyPath: player
@@ -299,6 +320,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Entity
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905079187001705705, guid: 226156120b6c9cb4fb423706fe193933,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905079187001705705, guid: 226156120b6c9cb4fb423706fe193933,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905079187389998907, guid: 226156120b6c9cb4fb423706fe193933,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905079187389998907, guid: 226156120b6c9cb4fb423706fe193933,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905079187762959205, guid: 226156120b6c9cb4fb423706fe193933,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4905079187762959205, guid: 226156120b6c9cb4fb423706fe193933,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 226156120b6c9cb4fb423706fe193933, type: 3}
@@ -1268,6 +1319,16 @@ PrefabInstance:
       propertyPath: PortesSpawn
       value: 
       objectReference: {fileID: 1109035633}
+    - target: {fileID: 4831673109200659364, guid: c376f01aaccd8114f90b090402891a7e,
+        type: 3}
+      propertyPath: entity
+      value: 
+      objectReference: {fileID: 3198705}
+    - target: {fileID: 4831673109200659364, guid: c376f01aaccd8114f90b090402891a7e,
+        type: 3}
+      propertyPath: spawnEntity
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4831673109200659367, guid: c376f01aaccd8114f90b090402891a7e,
         type: 3}
       propertyPath: m_Name
