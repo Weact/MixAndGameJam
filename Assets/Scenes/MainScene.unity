@@ -1582,7 +1582,7 @@ PrefabInstance:
     - target: {fileID: 1196271024386612136, guid: e271a171034098c4fb291b8d28ede9c3,
         type: 3}
       propertyPath: m_FillRect
-      value: 
+      value:
       objectReference: {fileID: 0}
     - target: {fileID: 1196271024386612136, guid: e271a171034098c4fb291b8d28ede9c3,
         type: 3}
@@ -6133,6 +6133,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8990105822065467506, guid: 262458fbcfa621243b549cd906dc5f2a,
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6645049fddb6c6c408680cf4bce3be3c, type: 3}
+--- !u!1001 &1297082924
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4019555591508113451, guid: 7ef3b932b9c714b4a82a4ab00bfe6507,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
@@ -6146,6 +6156,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9008374111338824500, guid: 262458fbcfa621243b549cd906dc5f2a,
         type: 3}
