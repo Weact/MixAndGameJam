@@ -13,8 +13,8 @@ public class ScriptOrdiSpawn : MonoBehaviour
     private GameObject PortesSpawn = null;
     private OxygenBarScript OxyScript = null;
 
-    private Transform spawnEntity;
-    private GameObject entity;
+    [SerializeField]
+    private GameObject entity = null;
 
     private Begin_Script scriptTimer = null;
     private EntityBehavior scriptSpeed = null;
@@ -24,8 +24,11 @@ public class ScriptOrdiSpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        entity = GameObject.Find("EntityUnit");
-        spawnEntity = GameObject.Find("SpawnEntity").GetComponent<Transform>();
+        if(entity == null)
+        {
+            Debug.LogError("There is no entity in the game, please setup one.");
+            return;
+        }
 
         OxyScript = GameObject.Find("OxygenBar").GetComponent<OxygenBarScript>();
         scriptTimer = GameObject.Find("TimeRemainingText").GetComponent<Begin_Script>();
@@ -48,7 +51,6 @@ public class ScriptOrdiSpawn : MonoBehaviour
 
             scriptSpeed.speed = 15;
             scriptSpeed.SetAgentProperties();
-            entity.transform.position = spawnEntity.position;
             scriptTimer.startTimer();
 
             if (PortesSpawn != null)
