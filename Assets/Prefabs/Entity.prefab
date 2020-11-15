@@ -171,6 +171,7 @@ GameObject:
   - component: {fileID: 4905079187762959206}
   - component: {fileID: 4905079187762959207}
   - component: {fileID: 3645462142143373396}
+  - component: {fileID: 4228420368541525864}
   - component: {fileID: 4905079187762959204}
   m_Layer: 0
   m_Name: EntityUnit
@@ -285,6 +286,18 @@ MonoBehaviour:
   player: {fileID: 0}
   fviewRadius: 0
   fangleInfo: 0
+--- !u!114 &4228420368541525864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4905079187762959202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7140b1fc8cb2c945b3a6e27a9b64818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!195 &4905079187762959204
 NavMeshAgent:
   m_ObjectHideFlags: 0
