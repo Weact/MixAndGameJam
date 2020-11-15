@@ -47,7 +47,10 @@ public class RacingTask : MonoBehaviour
     private void OnTriggerEnter2D()
     {
         if (GMScript != null)
-            GMScript.ValideTache(GMScript.bTache2);
+        {
+            GMScript.bTache2 = true;
+            GMScript.AfficheNbTache();
+        }
         GameObject.Find("PresentoirRacing").GetComponent<RacingManager>().Interact();
     }
 
