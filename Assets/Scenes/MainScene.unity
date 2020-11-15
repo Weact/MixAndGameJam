@@ -173,7 +173,7 @@ PrefabInstance:
     - target: {fileID: 4665527733007225409, guid: d4bb3a1c33663154fbf7b2aa7b048645,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4665527733007225409, guid: d4bb3a1c33663154fbf7b2aa7b048645,
         type: 3}
@@ -1751,6 +1751,11 @@ PrefabInstance:
       propertyPath: Fin
       value: 
       objectReference: {fileID: 1215769691}
+    - target: {fileID: 9178148318937336232, guid: 57b79e219590ec44b896bb1f85a232fe,
+        type: 3}
+      propertyPath: Victoire
+      value: 
+      objectReference: {fileID: 1430416795}
     - target: {fileID: 9178148318937336233, guid: 57b79e219590ec44b896bb1f85a232fe,
         type: 3}
       propertyPath: m_Name
