@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Begin_Script : MonoBehaviour
 {
     private Text textbox;
-    public float timeReaming = 120.0f;
+    public float timeRemaining = 120.0f;
     private bool verif = true;
     [SerializeField]
     private GameManagerScript GMScript = null;
@@ -35,9 +35,9 @@ public class Begin_Script : MonoBehaviour
 
     void updateText()
     {
-        timeReaming--;
-        textbox.text = timeReaming.ToString();
-        if(timeReaming <= 0)
+        timeRemaining--;
+        textbox.text = timeRemaining.ToString();
+        if(timeRemaining <= 0)
         {
             CancelInvoke("updateText");
             if (GMScript != null)
