@@ -13,13 +13,19 @@ public class OxygenBarScript : MonoBehaviour
     private Slider OxygenBar;
     private Text OxygenTextDisplay;
 
+    [SerializeField]
+    private GameObject Fin = null;
+
     // Start is called before the first frame update
     void Start()
     {
         OxygenBar = GetComponent<Slider>();
         OxygenTextDisplay = GetComponent<Text>();
-
-        InvokeRepeating("SubstractPlayerOxygen", timeRate, timeRate);
+    }
+    
+    public void Begin()
+    {
+        InvokeRepeating("SubstractPlayerOxygen", timeRate, timeRate); 
     }
 
     // Update is called once per frame
@@ -38,6 +44,8 @@ public class OxygenBarScript : MonoBehaviour
         {
             Debug.Log("Player's Oxygen has reached 0 !");
             CancelInvoke("substractPlayerOxygen");
+            if (Fin != null)
+                Fin.SetActive(true);
         }
     }
 }
