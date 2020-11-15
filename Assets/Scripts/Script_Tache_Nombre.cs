@@ -23,7 +23,7 @@ public class Script_Tache_Nombre: MonoBehaviour
     {
         //Debug.Log("Enable");
         Start();
-        Cursor.lockState = CursorLockMode.Confined;
+        //Cursor.lockState = CursorLockMode.Confined;
         Reinitialiser();
         bEnable = true;
         TacheStart();
@@ -34,7 +34,7 @@ public class Script_Tache_Nombre: MonoBehaviour
         bEnable = false;
         Reinitialiser();
         //Debug.Log("Disable");
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Start()
@@ -70,7 +70,7 @@ public class Script_Tache_Nombre: MonoBehaviour
         sRedNumber = GenererAleatoire();
         sBlueNumber = GenererAleatoire();
         //Debug.Log("Vert " + sGreenNumber + " Bleu " + sBlueNumber + " Rouge " + sRedNumber);
-        StartCoroutine(Melange(Time.time,3f,"SetRouge"));
+        StartCoroutine(Melange(Time.time,1f,"SetRouge"));
     }
 
    
@@ -112,7 +112,7 @@ public class Script_Tache_Nombre: MonoBehaviour
         }
         Nombre.color = Color.black;
         if (bEnable)
-            StartCoroutine(Melange(Time.time, 3f, "SetBleu"));
+            StartCoroutine(Melange(Time.time, 1f, "SetBleu"));
     }
 
     private IEnumerator SetBleu(float Temps)
@@ -126,7 +126,7 @@ public class Script_Tache_Nombre: MonoBehaviour
         }
         Nombre.color = Color.black;
         if (bEnable)
-            StartCoroutine(Melange(Time.time, 3f, "SetVert"));
+            StartCoroutine(Melange(Time.time, 1f, "SetVert"));
     }
 
     private IEnumerator SetVert(float Temps)
