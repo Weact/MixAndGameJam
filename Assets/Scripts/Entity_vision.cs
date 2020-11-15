@@ -24,7 +24,7 @@ public class Entity_vision : MonoBehaviour
 
         Gizmos.color = Color.red;
 
-        float fanglePlayer = Mathf.Atan2(player.position.x-transform.position.x, player.position.z-transform.position.x) * Mathf.Rad2Deg;
+        float fanglePlayer = Mathf.Atan2(player.position.x-transform.position.x, player.position.z-transform.position.z) * Mathf.Rad2Deg;
 
         Gizmos.DrawRay(transform.position, Quaternion.AngleAxis(fanglePlayer, transform.up) * transform.forward * fviewRadius);
 
@@ -53,11 +53,11 @@ public class Entity_vision : MonoBehaviour
 
         if(isInvision)
         {
-            Debug.Log("In vision");
+            RenderSettings.fogDensity = 0.25f;
         }
         else
         {
-            Debug.Log("Not IN vision");
+            RenderSettings.fogDensity = 0.15f;
         }
     }
 }
