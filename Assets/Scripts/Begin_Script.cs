@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Begin_Script : MonoBehaviour
 {
     private Text textbox;
-    public float timeReaming = 30.0f;
+    public float timeReaming = 120.0f;
     private bool verif = true;
     [SerializeField]
     private GameObject Fin = null;
