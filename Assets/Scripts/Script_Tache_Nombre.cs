@@ -23,7 +23,7 @@ public class Script_Tache_Nombre: MonoBehaviour
     {
         //Debug.Log("Enable");
         Start();
-        Cursor.lockState = CursorLockMode.Confined;
+        //Cursor.lockState = CursorLockMode.Confined;
         Reinitialiser();
         bEnable = true;
         TacheStart();
@@ -34,7 +34,7 @@ public class Script_Tache_Nombre: MonoBehaviour
         bEnable = false;
         Reinitialiser();
         //Debug.Log("Disable");
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Start()
