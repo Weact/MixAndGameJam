@@ -20,13 +20,16 @@ public class Begin_Script : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.F) && verif)
+
+    }
+
+    public void startTimer()
+    {
+        if (verif)
         {
             verif = false;
             InvokeRepeating("updateText", 0f, 1f);
-
         }
-
     }
 
     void updateText()
