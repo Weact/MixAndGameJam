@@ -6,6 +6,7 @@ TagManager:
   tags:
   - patrolPoint
   - PatrolPointsGroup
+  - Mirror
   layers:
   - Default
   - TransparentFX
