@@ -6,10 +6,13 @@ using UnityEngine.UI;
 public class Laser : MonoBehaviour
 {
     private LineRenderer _lineRenderer;
+    GameManagerScript GMScript = null;
+
     // Use this for initialization
     void Start()
     {
         _lineRenderer = GetComponent<LineRenderer>();
+        GMScript = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
     }
 
     void OnEnable()
@@ -82,5 +85,8 @@ public class Laser : MonoBehaviour
         GameObject presentoir = GameObject.Find("PresentoirLaser");
         presentoir.GetComponent<LaserManager>().Interact();
         presentoir.GetComponent<LaserManager>().enabled = false;
+
+        if (GMScript != null)
+            GMScript.ValideTache(GMScript.bTache3);
     }
 }

@@ -15,11 +15,14 @@ public class ScriptOrdiSpawn : MonoBehaviour
 
     private Begin_Script scriptTimer = null;
 
+    private GameManagerScript GMScript = null;
+
     // Start is called before the first frame update
     void Start()
     {
         OxyScript = GameObject.Find("OxygenBar").GetComponent<OxygenBarScript>();
         scriptTimer = GameObject.Find("TimeRemainingText").GetComponent<Begin_Script>();
+        GMScript = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
     }
 
     void Update()
@@ -41,6 +44,7 @@ public class ScriptOrdiSpawn : MonoBehaviour
             bUsable = false;
             if (InteractText != null)
                 InteractText.enabled = false;
+            GMScript.AfficheNbTache();
         }
     }
 

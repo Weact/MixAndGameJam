@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 771875748057218449}
   - component: {fileID: 771875748057218448}
   m_Layer: 5
-  m_Name: NumeroTexte
+  m_Name: TexteSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

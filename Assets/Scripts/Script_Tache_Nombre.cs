@@ -19,6 +19,8 @@ public class Script_Tache_Nombre: MonoBehaviour
     private string sBlueNumber = "";
     private int nSolution = 1;
 
+    GameManagerScript GMScript = null;
+
     private void OnEnable()
     {
         //Debug.Log("Enable");
@@ -39,6 +41,7 @@ public class Script_Tache_Nombre: MonoBehaviour
 
     private void Start()
     {
+        GMScript = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
         btnOK = transform.Find("ButtonOK").GetComponent<Button>();
         btnAnnuler = transform.Find("ButtonCancel").GetComponent<Button>();
         Affichage = transform.Find("Texte").GetComponent<Text>();
@@ -213,6 +216,8 @@ public class Script_Tache_Nombre: MonoBehaviour
         {
             if (Affichage != null)
                 Affichage.text = "Congratulation !";
+            if (GMScript != null)
+                GMScript.ValideTache(GMScript.bTache1);
             bStart = false;
         }
         else

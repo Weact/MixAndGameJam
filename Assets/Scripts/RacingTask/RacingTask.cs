@@ -10,6 +10,14 @@ public class RacingTask : MonoBehaviour
     private float maxTime = 30;
     public Text timeLeft;
 
+    //[SerializeField]
+    GameManagerScript GMScript = null;
+
+    private void Start()
+    {
+        GMScript = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
+    }
+
     private void OnEnable()
     {
         Reset();
@@ -38,6 +46,8 @@ public class RacingTask : MonoBehaviour
 
     private void OnTriggerEnter2D()
     {
+        if (GMScript != null)
+            GMScript.ValideTache(GMScript.bTache2);
         GameObject.Find("PresentoirRacing").GetComponent<RacingManager>().Interact();
     }
 

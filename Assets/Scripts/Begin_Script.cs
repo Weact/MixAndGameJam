@@ -10,11 +10,12 @@ public class Begin_Script : MonoBehaviour
     public float timeReaming = 120.0f;
     private bool verif = true;
     [SerializeField]
-    private GameObject Fin = null;
+    private GameManagerScript GMScript = null;
 
     private void Start()
     {
-        textbox = GetComponent<Text>();   
+        textbox = GetComponent<Text>();
+        GMScript = GameObject.Find("GameManager").GetComponent<GameManagerScript>();
     }
 
     // Update is called once per frame
@@ -39,8 +40,8 @@ public class Begin_Script : MonoBehaviour
         if(timeReaming <= 0)
         {
             CancelInvoke("updateText");
-            if (Fin != null)
-                Fin.SetActive(true);
+            if (GMScript != null)
+                GMScript.GameOver();
         }
     }
 }
