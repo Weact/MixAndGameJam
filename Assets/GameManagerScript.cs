@@ -22,12 +22,6 @@ public class GameManagerScript : MonoBehaviour
         AfficheTaches = GameObject.Find("TexteSpawn").GetComponent<Text>();
     }
 
-    public void ValideTache(bool bTache)
-    {
-        bTache = true;
-        AfficheNbTache();
-    }
-
     public void AfficheNbTache()
     {
         string Affiche = CompteBool().ToString() + "/3";
@@ -43,6 +37,7 @@ public class GameManagerScript : MonoBehaviour
             n++;
         if (bTache3)
             n++;
+        Debug.Log(n);
         return n;
     }
 

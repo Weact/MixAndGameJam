@@ -87,6 +87,9 @@ public class Laser : MonoBehaviour
         presentoir.GetComponent<LaserManager>().enabled = false;
 
         if (GMScript != null)
-            GMScript.ValideTache(GMScript.bTache3);
+        {
+            GMScript.bTache3 = true;
+            GMScript.AfficheNbTache();
+        }
     }
 }

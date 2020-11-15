@@ -198,7 +198,7 @@ PrefabInstance:
     - target: {fileID: 4665527734460148935, guid: d4bb3a1c33663154fbf7b2aa7b048645,
         type: 3}
       propertyPath: oxygenbar
-      value: 
+      value:
       objectReference: {fileID: 2013299197}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4bb3a1c33663154fbf7b2aa7b048645, type: 3}
@@ -218,7 +218,7 @@ PrefabInstance:
     - target: {fileID: 3645462142143373396, guid: 226156120b6c9cb4fb423706fe193933,
         type: 3}
       propertyPath: player
-      value: 
+      value:
       objectReference: {fileID: 1249421776}
     - target: {fileID: 3645462142143373396, guid: 226156120b6c9cb4fb423706fe193933,
         type: 3}
@@ -233,7 +233,7 @@ PrefabInstance:
     - target: {fileID: 4228420368541525864, guid: 226156120b6c9cb4fb423706fe193933,
         type: 3}
       propertyPath: target
-      value: 
+      value:
       objectReference: {fileID: 1249421776}
     - target: {fileID: 4228420368541525864, guid: 226156120b6c9cb4fb423706fe193933,
         type: 3}
@@ -501,8 +501,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1 &625549923 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7789827462504074484, guid: 8de84386008c8c44c8b36ccd2a765ac4,
@@ -638,7 +638,7 @@ PrefabInstance:
     - target: {fileID: 3787779616152535376, guid: e271a171034098c4fb291b8d28ede9c3,
         type: 3}
       propertyPath: DefeatObject
-      value: 
+      value:
       objectReference: {fileID: 1215769691}
     - target: {fileID: 5425035185530240327, guid: e271a171034098c4fb291b8d28ede9c3,
         type: 3}
@@ -1005,7 +1005,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1430416795 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1740264369954544839, guid: e271a171034098c4fb291b8d28ede9c3,
+  m_CorrespondingSourceObject: {fileID: 1732245980422109530, guid: e271a171034098c4fb291b8d28ede9c3,
     type: 3}
   m_PrefabInstance: {fileID: 707416107}
   m_PrefabAsset: {fileID: 0}
@@ -1192,12 +1192,12 @@ PrefabInstance:
     - target: {fileID: 4831673109200659364, guid: c376f01aaccd8114f90b090402891a7e,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 4831673109200659364, guid: c376f01aaccd8114f90b090402891a7e,
         type: 3}
       propertyPath: PortesSpawn
-      value: 
+      value:
       objectReference: {fileID: 1109035633}
     - target: {fileID: 4831673109200659367, guid: c376f01aaccd8114f90b090402891a7e,
         type: 3}
@@ -1339,51 +1339,51 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 579344435, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f, type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 1019158986}
     - target: {fileID: 579344435, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f, type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 6428278256302718108, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 2019146128}
     - target: {fileID: 6428278256302718108, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 6428278256937283553, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 24623716}
     - target: {fileID: 6428278256937283553, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 6428278257102529621, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 625549923}
     - target: {fileID: 6428278257102529621, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 6428278257131084306, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 1078027748}
     - target: {fileID: 6428278257131084306, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 6428278257360464042, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
@@ -1448,82 +1448,82 @@ PrefabInstance:
     - target: {fileID: 6428278257494279993, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 1225324930}
     - target: {fileID: 6428278257494279993, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 6428278257632183554, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 1371418456}
     - target: {fileID: 6428278257632183554, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 6428278257656403991, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 276348414}
     - target: {fileID: 6428278257656403991, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 6428278257958440866, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 1025630946}
     - target: {fileID: 6428278257958440866, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 6428278258072516705, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 1844188353}
     - target: {fileID: 6428278258072516705, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 6428278258104643651, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 1461418036}
     - target: {fileID: 6428278258104643651, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 6428278258198740557, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 1590636846}
     - target: {fileID: 6428278258198740557, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     - target: {fileID: 6428278258383516397, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: Lumieres
-      value: 
+      value:
       objectReference: {fileID: 1424040869}
     - target: {fileID: 6428278258383516397, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f,
         type: 3}
       propertyPath: InteractText
-      value: 
+      value:
       objectReference: {fileID: 577810898}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bfaa2fb30d5ace4fa196a15caa3a27f, type: 3}
@@ -1606,12 +1606,12 @@ PrefabInstance:
     - target: {fileID: 9178148318937336232, guid: 57b79e219590ec44b896bb1f85a232fe,
         type: 3}
       propertyPath: Fin
-      value: 
+      value:
       objectReference: {fileID: 1215769691}
     - target: {fileID: 9178148318937336232, guid: 57b79e219590ec44b896bb1f85a232fe,
         type: 3}
       propertyPath: Victoire
-      value: 
+      value:
       objectReference: {fileID: 1430416795}
     - target: {fileID: 9178148318937336232, guid: 57b79e219590ec44b896bb1f85a232fe,
         type: 3}

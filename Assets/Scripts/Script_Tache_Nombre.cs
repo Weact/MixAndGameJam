@@ -217,7 +217,10 @@ public class Script_Tache_Nombre: MonoBehaviour
             if (Affichage != null)
                 Affichage.text = "Congratulation !";
             if (GMScript != null)
-                GMScript.ValideTache(GMScript.bTache1);
+            {
+                GMScript.bTache1 = true;
+                GMScript.AfficheNbTache();
+            }
             bStart = false;
         }
         else
