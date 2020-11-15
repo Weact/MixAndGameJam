@@ -13,10 +13,17 @@ public class VerifyPipe : MonoBehaviour
     private bool validate;
     private float timer = 0;
 
+    [SerializeField]
+    public GameObject oxygenbar = null;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(oxygenbar == null)
+        {
+            Debug.LogError("There is no oxygenbar set, please setup one");
+            return;
+        }
     }
 
     private void OnEnable()
@@ -50,6 +57,7 @@ public class VerifyPipe : MonoBehaviour
             oxygen.value = 0;
             timer = 0;
             GameObject.Find("Valve").GetComponent<OxygenManager>().Interact();
+            oxygenbar.GetComponent<Slider>().value = oxygenbar.GetComponent<Slider>().maxValue;
         }
     }
 
